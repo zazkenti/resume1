@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Yisong Wang} \\ \vspace{1pt}
+    \href{mailto:a123nce@gmail.com}{\underline{a123nce@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/zazkenti/}{\underline{linkedin.com/in/zazkenti/}} $|$
+    \href{https://github.com/zazkenti}{\underline{github.com/zazkenti}} $|$ 
+    \href{650-996-6311}{\underline{650-996-6311}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Independence High School}{San Jose, CA}
+      {High School Diploma}{August 2020 - May 2024}
+    \resumeSubheading
+      {San Jose State University}{San Jose, CA}
+      {Bachelor of Science in Computer Science}{Expected: May 2028}
+      \begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+}}
+\end{itemize}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Red Lobster}{July 2024 -- December 2024}
+    {Server Assistant(Host/Busser/Runner)}{Milpitas, CA}
+    \resumeItemListStart
+      \resumeItem{Skilled in handling a variety of cleaning equipment, food running, and using the cashier or POS stations.}
+      \resumeItem{Help create a welcoming customer experience for all and handle customer inquiries with confidence and honesty.}
+      \resumeItem{Developed reliable communication skills among team members by actively communicating with the servers, cooks, and managers for the customers to have a steadfast experience.}
+    \resumeItemListEnd
+
+\resumeSubheading
+  {HeyTea}{Jan. 2025 -- Mar. 2025}
+  {Barista/Food Preparation}{Milpitas, CA}
+  \resumeItemListStart
+    \resumeItem{Demonstrated proficiency in operating various coffee machines and equipment, ensuring high-quality beverage preparation.}
+    \resumeItem{Maintained a clean and organized workspace, adhering to health and safety standards while preparing and serving beverages.}
+    \resumeItem{Developed expert teamwork skills by collaborating with colleagues to ensure efficient service and customer satisfaction.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Junior Achievement USA}{February 2024 -- May 2024}
+  {Team Member}{San Jose, CA}
+  \resumeItemListStart
+    \resumeItem{Organized financial records for the student-led company, ensuring accuracy and transparency in financial transactions.}
+    \resumeItem{Worked with students and teachers to develop a comprehensive business plan, including market research, product development, and financial projections.}
+    \resumeItem{Secured and handled cash transactions, ensuring proper cash management and accountability.}
+  \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------Awards-----------
+\section{Awards}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{\underline{\href{2024 CED X Hackathon Spartup Winner}{2024 CED X Hackathon Spartup Winner}}}} { }
+      \resumeItemListStart
+        \resumeItem{Helped research and prove the feasibility of a suagrcane-based water filtration system while incorpoating artificial intelligence for the 2024 CED X Hackathon Spartup event.}
+      \resumeItemListEnd
+      \resumeProjectHeading
+      {\textbf{\underline{\href{2024 Seal of Biliteracy: Chinese}{2024 Seal of Biliteracy: Chinese}}}} { }
+      \resumeItemListStart
+        \resumeItem{Awarded the Seal of Biliteracy in Chinese for demonstrating proficiency in both English and Chinese languages, showcasing my bilingual capabilities.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%
+%-----------SKILLS-----------
+\section{Core Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages Fluent}{: English, Mandarin} \\
+     \textbf{Programming Languages}{: Java, Python, Javascript} \\
+     \textbf{Developer Tools}{: Git, VS Code, PyCharm} \\
+     \textbf{Certifications and Licenses}{: Class C Driver's License, Food Handler's Certifiction} \\
+     \textbf{Other Skills}{: Cash Handling, Computer Skills, POS Experience, Customer Service, Teamwork, Time Management, Communication Skills} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
